@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.stefanocaglio.com$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^stefanocaglio.com$ [NC]
+RewriteCond %{HTTP:X-Forwarded-Proto} !^https$
+RewriteRule ^(.*) https://www.stefanocaglio.com/$1 [R=301,L]
+</IfModule>
