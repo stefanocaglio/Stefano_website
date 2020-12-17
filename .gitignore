@@ -1,10 +1,10 @@
 # Images #
 ##########
-*.jpg
-*.gif
-*.png
-*.svg
-*.ico
+#*.jpg
+#*.gif
+#*.png
+#*.svg
+#*.ico
 
 # Video #
 #########
