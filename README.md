@@ -1,6 +1,6 @@
 # Stefano_website
 
-This Repo is for my peronal website development.
+This Repo is for my personal website development.
 
 It uses just HTML, CSS and Javascript.
 
