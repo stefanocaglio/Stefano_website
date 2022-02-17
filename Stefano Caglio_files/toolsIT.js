@@ -29,7 +29,7 @@ typewriterIT.typeString('Sono <span style="color: #00abe9;">un ingegnere.</span>
 	  .typeString('Amo <span style="color: #00abe9;">risolvere problemi.</span>')
 	  .pauseFor(1000)
 	  .deleteChars(19)
-	  .typeString('Amo <span style="color: #00abe9;">la scienza.</span>')
+	  .typeString('<span style="color: #00abe9;">la scienza.</span>')
 	  .pauseFor(1000)
 	  .deleteChars(11)
 	  .typeString('<span style="color: #00abe9;">analizzare dati.</span>')
